@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e5e065b567e0c6f4eb8ea8f48e31b36e, type: 3}
+  m_Name: GoblinDialogue
+  m_EditorClassIdentifier: 
+  npcName: Goblin
+  npcPortrait: {fileID: -2132477287, guid: 2e8f0258575e9ce42bfe375a21ba3a35, type: 3}
+  dialogueLines:
+  - Hello! Don't be alarmed i am a friendly Goblin!
+  - Never heard of a friendly goblin? Well i am a carrier Goblin
+  - The goblins that are hostile are usual the brutes, don't worry about me though
+    carrier goblins can be a part of civilization!
+  autoProgressLines: 0100
+  autoProgressDelay: 3
+  typingSpeed: 0
+  voiceSound: {fileID: 8300000, guid: 20dc895c34f8f1b49b9f76041c1ebef3, type: 3}
+  voicePitch: 1
